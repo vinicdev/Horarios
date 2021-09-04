@@ -35,7 +35,7 @@ header p {
 
 /* Link Meets */
 .container {
-	width: auto;
+	width: 300px;
 	margin: 0 auto;
 	padding: 0px;
 	position: relative;
@@ -70,8 +70,9 @@ ul a li {
 ul a li:hover {
     opacity:0.4;
     color: rgb(44, 44, 44);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 
@@ -85,7 +86,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
+    width: 300px;
     height: auto;
     padding-bottom: 20px;
 }
